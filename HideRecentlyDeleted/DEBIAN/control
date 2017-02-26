@@ -1,7 +1,7 @@
 Package: com.nbear3.hiderecentlydeleted
 Name: Hide Recently Deleted
 Depends: mobilesubstrate
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Description: Hide photos from the recently deleted album in the Photos app.
 Maintainer: nbear3
