@@ -1,1 +1,1 @@
-# Cydia Repository for nbear3
+# Repository for nbear3
