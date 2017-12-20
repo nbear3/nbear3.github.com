@@ -1,3 +1,5 @@
+find . -name ".DS_Store" -delete
+
 ./remove.sh
 ./packages.sh
 
