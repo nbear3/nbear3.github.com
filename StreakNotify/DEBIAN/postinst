@@ -1,0 +1,13 @@
+#!/bin/sh
+echo Changing permissions on daemon
+chmod 755 /usr/bin/streaknotifyd
+chown root:wheel /usr/bin/streaknotifyd
+chmod 755 /Library/LaunchDaemons/com.YungRaj.streaknotifyd.plist
+chown root:wheel /Library/LaunchDaemons/com.YungRaj.streaknotifyd.plist
+echo Unloading daemon
+launchctl unload /Library/LaunchDaemons/com.YungRaj.streaknotifyd.plist
+echo Loading daemon
+launchctl load /Library/LaunchDaemons/com.YungRaj.streaknotifyd.plist
+echo Daemon loaded successfully
+echo Thank you for installing StreakNotify, follow me on Twitter and add me on Snapchat @ilhanraja
+exit 0
